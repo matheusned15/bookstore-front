@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HearderComponent } from './components/template/hearder/hearder.component';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { FooterComponent } from './components/template/footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HearderComponent
+    HearderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
